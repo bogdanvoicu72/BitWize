@@ -1,0 +1,88 @@
+.bgcolor{
+    background: #f9f5f2;
+}
+
+.lineHor {
+    height: 2px;
+    border-width: 0;
+    color: #24394a;
+    background-color:  #24394a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Style pentru partea de about  */
+.about_section{
+    background: url('../Images/bodyBitwize.jpg') no-repeat left;
+    background-size: 55%;
+    background-color: #f9f5f2;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner_container{
+    width: 55%;
+    float: right;
+    background-color: #f9f5f2;
+    padding: 150px;
+}
+
+.inner_container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner_container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about_section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner_container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about_section{
+        padding: 0;
+    }
+    .inner_container{
+        padding: 60px;
+    }
+}
+/* Sfarsit pentru partea de about  */
+
