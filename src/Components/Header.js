@@ -4,13 +4,19 @@ import Style from '../Style/headerStyle.module.css'
 
 function Hedear (){
     return(
-        <div>
-            <header className={Style.header}>
-                        <a>
-                            <img className={Style.img} src={image}/>
-                        </a>
+        <div className={Style.bgcolor}>
+            <header>
+
+            <div className={Style.about_section}>
+
+                <div className={Style.inner_container}>
+                    <h1>BitWize</h1>
+                    <p className={Style.text}>Development</p>
+                </div>
+            </div>
             </header>
         </div>
+
     )
 }
 

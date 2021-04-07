@@ -8,28 +8,15 @@
     color: #24394a;
     background-color:  #24394a;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans",sans-serif;
-    box-sizing: border-box;
-}
 
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 /* Style pentru partea de about  */
 .about_section{
     background: url('../Images/bodyBitwize.jpg') no-repeat left;
-    background-size: 55%;
+    background-size: 120%;
     background-color: #f9f5f2;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 .inner_container{
