@@ -1,0 +1,64 @@
+.wrapper{
+    margin-top:10% ;
+}
+
+.wrapper h1{
+    font-family: "Open Sans",cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.scope{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.scope .scope_member{
+
+    background: #22425b;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+
+.scope .scope_member h3{
+    color: black;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.scope .scope_member p.role{
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin:12px 0;
+}
+
+
+.scope .scope_member .scope_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
+.scope .scope_member .scope_img img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
